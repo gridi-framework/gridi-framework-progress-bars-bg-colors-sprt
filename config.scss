@@ -1,0 +1,9 @@
+$progress-bars-background-colors-support-parser: (
+    border-color: null,
+    background: 'background-inner-color',
+    meter-background: 'hover-color',
+    color: 'background-inner-color'
+) !default;
+
+$progress-bars-background-colors-support-extra-colors-palette: () !default;
+$progress-bars-background-colors-support-skip-colors-palette: null !default;

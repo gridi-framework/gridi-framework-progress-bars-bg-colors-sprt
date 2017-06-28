@@ -1,0 +1,5 @@
+@each $palette-color-prefix, $palette-color-variables in get-background-colors-palette($progress-bars-background-colors-support-extra-colors-palette, $progress-bars-background-colors-support-skip-colors-palette) {
+    .#{$background-colors-class-prefix}-#{$palette-color-prefix} {
+        @include progress-bars-colors(parse-map($progress-bars-background-colors-support-parser, $palette-color-variables));
+    }
+}
